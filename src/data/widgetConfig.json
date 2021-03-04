@@ -1,0 +1,36 @@
+{
+  "widget_ui_policy": {
+    "app_urls": [
+      {
+        "name": "timesheet",
+        "url": "open/timesheet/with=copypriviousweek",
+        "icon": "url to fetch icon or assets icon",
+        "visibility": "force"
+      },
+      {
+        "name": "okta",
+        "url": "open/okta/",
+        "icon": "url to fetch icon or assets icon",
+        "visibility": "auto - user can remove it from widget"
+      }
+    ],
+    "notices": [
+      "This is plain but formatted text 1",
+      "This is plain but formatted text 2",
+      "This is plain but formatted text 3",
+      "This is plain but formatted text 3",
+      "This is plain but formatted text 3",
+      "This is plain but formatted text 3"
+    ],
+    "voice_note": "either data or url to ftch voice note",
+    "good_thought": "Single line of the day. Or may be the tag line of org",
+    "advertise": [{}, {}],
+    "widget_telemetry": [],
+    "polly": [],
+    "news": {
+      "url": "news url",
+      "poll_freq": "10m"
+    },
+    "password_manager_enbled": "true"
+  }
+}

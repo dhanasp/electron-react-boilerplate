@@ -4,19 +4,10 @@
  */
 body {
   position: relative;
-  color: white;
   height: 100vh;
-  background: linear-gradient(
-    200.96deg,
-    #fedc2a -29.09%,
-    #dd5789 51.77%,
-    #7a2c9e 129.35%
-  );
   font-family: sans-serif;
   overflow-y: hidden;
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 button {
@@ -50,9 +41,138 @@ a:hover {
   cursor: pointer;
 }
 
-.Hello {
+.assistance-ui {
   display: flex;
-  justify-content: center;
+}
+
+.smart-assist {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 638px;
+  justify-content: space-around;
+}
+
+.tag-line {
+  color: #18070d;
+}
+
+.apps {
+  display: flex;
+  flex-direction: column;
+}
+
+.upper-body {
+  display: flex;
+  height: 70%;
+}
+
+.app {
+  width: 53%;
+  height: 20%;
+  margin: 0 10px;
+}
+
+.widget {
+  border: 1px solid #7c7478;
+  margin: 10px;
+}
+
+.widgets {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.insights {
+  width: 150px;
+  height: 80%;
+}
+
+.password-manager {
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.chat-iframe {
+  width: 80px;
+  height: 50%;
+}
+
+.advertisement {
+  width: 75%;
+  height: 80%;
+}
+
+.lower-body {
+  display: flex;
+  height: 30%;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.left-panel {
+  width: 25%;
+}
+
+.middle-panel {
+  width: 70%;
+}
+
+.right-panel {
+  width: 40%;
+}
+
+.notice-board {
+  height: 100%;
+}
+
+.notice {
+  height: 90%;
+  overflow: scroll;
+  border: 1px #8e83896b solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.notice-header {
+  height: 10%;
+  border-bottom: 1px #7c7478 solid;
+}
+
+.notice-text {
+  padding-bottom: 2px;
+  border-bottom: 1px #7c7478 solid;
+}
+
+.header h1 {
+  margin: 7px;
+}
+
+.header {
+  height: 10%;
+  display: flex;
   align-items: center;
-  margin: 20px 0;
+  width: 100%;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.voice-to-text {
+  width: 40px;
+  padding: 2px;
+}
+
+.meghaphone-icon {
+  width: 30px;
+  height: 30px;
+  transform: scaleX(-1);
+}
+
+.title {
+  width: 80%;
 }
